@@ -41,7 +41,15 @@
 		<artifactId>junit</artifactId>
 		<version>4.12</version>
 		<scope>test</scope>
+		
+			 <exclusions>
+            <exclusion>
+                <artifactId>tools</artifactId>
+                <groupId>com.sun</groupId>
+            </exclusion>
+     </exclusions>
 	</dependency>
+	      
 </dependencies>
 
 </project>
